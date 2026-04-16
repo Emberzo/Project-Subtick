@@ -1,0 +1,378 @@
+[
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/ProjectSubtick.Build.cs",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/ProjectSubtick.cpp",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/ProjectSubtick.h",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/ProjectSubtickCameraManager.cpp",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/ProjectSubtickCameraManager.h",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/ProjectSubtickCharacter.cpp",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/ProjectSubtickCharacter.h",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/ProjectSubtickGameMode.cpp",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/ProjectSubtickGameMode.h",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/ProjectSubtickPlayerController.cpp",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/ProjectSubtickPlayerController.h",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Horror/HorrorCharacter.cpp",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Horror/HorrorCharacter.h",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Horror/HorrorGameMode.cpp",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Horror/HorrorGameMode.h",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Horror/HorrorPlayerController.cpp",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Horror/HorrorPlayerController.h",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Horror/UI/HorrorUI.cpp",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Horror/UI/HorrorUI.h",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/AI/EnvQueryContext_Target.cpp",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/AI/EnvQueryContext_Target.h",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/AI/ShooterAIController.cpp",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/AI/ShooterAIController.h",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/AI/ShooterNPC.cpp",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/AI/ShooterNPC.h",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/AI/ShooterNPCSpawner.cpp",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/AI/ShooterNPCSpawner.h",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/AI/ShooterStateTreeUtility.cpp",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/AI/ShooterStateTreeUtility.h",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/ShooterCharacter.cpp",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/ShooterCharacter.h",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/ShooterGameMode.cpp",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/ShooterGameMode.h",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/ShooterPlayerController.cpp",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/ShooterPlayerController.h",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/UI/ShooterBulletCounterUI.cpp",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/UI/ShooterBulletCounterUI.h",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/UI/ShooterUI.cpp",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/UI/ShooterUI.h",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/Weapons/ShooterPickup.cpp",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/Weapons/ShooterPickup.h",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/Weapons/ShooterProjectile.cpp",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/Weapons/ShooterProjectile.h",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/Weapons/ShooterWeapon.cpp",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/Weapons/ShooterWeapon.h",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/Weapons/ShooterWeaponHolder.cpp",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	},
+	{
+		"file": "/home/emberzo/projects/ProjectSubtick/Source/ProjectSubtick/Variant_Shooter/Weapons/ShooterWeaponHolder.h",
+		"arguments": [
+			"/home/emberzo/projects/UE5/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/emberzo/projects/ProjectSubtick/.vscode/compileCommands_ProjectSubtick/ProjectSubtick.1.rsp"
+		],
+		"directory": "/home/emberzo/projects/UE5/Engine/Source"
+	}
+]
