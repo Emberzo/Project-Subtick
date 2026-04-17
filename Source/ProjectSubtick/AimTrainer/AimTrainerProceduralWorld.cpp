@@ -6,6 +6,7 @@
 #include "Components/SkyLightComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "Engine/DirectionalLight.h"
+#include "Components/ExponentialHeightFogComponent.h"
 #include "Engine/ExponentialHeightFog.h"
 #include "Engine/PointLight.h"
 #include "Engine/SkyLight.h"
@@ -42,21 +43,36 @@ static UMaterialInterface* LoadBasicShapeMaterial()
 	return Cached;
 }
 
+static UMaterialInterface* LoadDefaultLitMaterial()
+{
+	static UMaterialInterface* Cached = nullptr;
+	if (Cached)
+	{
+		return Cached;
+	}
+	Cached = LoadObject<UMaterialInterface>(nullptr, TEXT("/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"));
+	return Cached;
+}
+
 static void ApplyWhiteRoomMaterial(UStaticMeshComponent* Mesh)
 {
 	if (!Mesh)
 	{
 		return;
 	}
-	UMaterialInterface* Base = LoadBasicShapeMaterial();
-	if (!Base)
+	if (UMaterialInterface* Base = LoadBasicShapeMaterial())
 	{
-		return;
+		if (UMaterialInstanceDynamic* Mid = UMaterialInstanceDynamic::Create(Base, Mesh->GetOwner()))
+		{
+			// BasicShapeMaterial uses "BaseColor" on most engine versions; MID still works if the param is ignored.
+			Mid->SetVectorParameterValue(TEXT("BaseColor"), FVector(0.94f, 0.94f, 0.96f));
+			Mesh->SetMaterial(0, Mid);
+			return;
+		}
 	}
-	if (UMaterialInstanceDynamic* Mid = UMaterialInstanceDynamic::Create(Base, Mesh->GetOwner()))
+	if (UMaterialInterface* Lit = LoadDefaultLitMaterial())
 	{
-		Mid->SetVectorParameterValue(TEXT("BaseColor"), FVector(0.94f, 0.94f, 0.96f));
-		Mesh->SetMaterial(0, Mid);
+		Mesh->SetMaterial(0, Lit);
 	}
 }
 
@@ -162,7 +178,7 @@ void AimTrainerProceduralWorld::EnsureArena(UWorld* World)
 		Sky->SetActorLabel(TEXT("SubtickAimTrainerSkyLight"));
 		if (USkyLightComponent* SL = Sky->GetLightComponent())
 		{
-			SL->SetIntensity(0.45f);
+			SL->SetIntensity(1.35f);
 			SL->SetLightColor(FLinearColor(1.f, 1.f, 1.f));
 			SL->SetMobility(EComponentMobility::Movable);
 			SL->bRealTimeCapture = true;
@@ -176,7 +192,7 @@ void AimTrainerProceduralWorld::EnsureArena(UWorld* World)
 		Key->SetActorLabel(TEXT("SubtickAimTrainerKeyLight"));
 		if (UDirectionalLightComponent* L = Cast<UDirectionalLightComponent>(Key->GetLightComponent()))
 		{
-			L->SetIntensity(6.5f);
+			L->SetIntensity(14.f);
 			L->SetLightColor(FLinearColor(1.f, 0.99f, 0.96f));
 			L->SetMobility(EComponentMobility::Movable);
 			L->SetCastShadows(false);
@@ -201,9 +217,9 @@ void AimTrainerProceduralWorld::EnsureArena(UWorld* World)
 			PL->SetActorLabel(FString::Printf(TEXT("SubtickAimTrainerFillLight_%d"), CornerIdx++));
 			if (UPointLightComponent* C = Cast<UPointLightComponent>(PL->GetLightComponent()))
 			{
-				C->SetIntensity(2500.f);
+				C->SetIntensity(12000.f);
 				C->SetLightColor(FLinearColor(1.f, 1.f, 1.f));
-				C->SetAttenuationRadius(520.f);
+				C->SetAttenuationRadius(620.f);
 				C->SetMobility(EComponentMobility::Movable);
 				C->bUseInverseSquaredFalloff = false;
 			}
@@ -215,6 +231,11 @@ void AimTrainerProceduralWorld::EnsureArena(UWorld* World)
 	{
 		Fog->Tags.Add(EnvTag);
 		Fog->SetActorLabel(TEXT("SubtickAimTrainerFog"));
+		if (UExponentialHeightFogComponent* FC = Fog->GetComponent())
+		{
+			FC->SetFogDensity(0.002f);
+			FC->SetFogMaxOpacity(0.08f);
+		}
 	}
 
 	if (!AnyPlayerStartExists(World))

@@ -25,12 +25,24 @@ class PROJECTSUBTICK_API AAimTrainerCharacter : public AProjectSubtickCharacter
 	UPROPERTY(Config, EditAnywhere, Category = "Subtick|Weapon")
 	FSoftObjectPath AimTrainerWeaponMeshPath;
 
+	/**
+	 * When AimTrainerWeaponMeshPath is empty, try to load a tiny built-in engine skeletal mesh so PIE is not an empty-handed viewmodel.
+	 * Set false in DefaultEngine.ini once you assign AimTrainerWeaponMeshPath or a Blueprint gun mesh.
+	 */
+	UPROPERTY(Config, EditAnywhere, Category = "Subtick|Weapon")
+	bool bAimTrainerEngineFallbackWeapon = true;
+
 	/** Native viewmodel (USPS) on the first-person camera; works even if Blueprint weapon wiring fails. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
 	TObjectPtr<USkeletalMeshComponent> AimTrainerViewWeapon;
 
 public:
 	AAimTrainerCharacter();
+
+	/** Ini-driven soft path; used by weapon setup helpers outside generated code. */
+	const FSoftObjectPath& GetAimTrainerWeaponMeshPath() const { return AimTrainerWeaponMeshPath; }
+
+	bool UsesEngineWeaponMeshFallback() const { return bAimTrainerEngineFallbackWeapon; }
 
 	virtual void PostRegisterAllComponents() override;
 	virtual void BeginPlay() override;
